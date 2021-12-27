@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.white {
+    background-color: #fff;
+  }
+
+  &.grey {
+    background-color: rgb(100, 100, 100);
+  }
+
+  &.row {
+    flex-direction: row;
+  }
+
+  &.row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  &.column {
+    flex-direction: column;
+  }
+}

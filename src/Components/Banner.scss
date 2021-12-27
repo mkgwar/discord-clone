@@ -1,0 +1,82 @@
+@import "../Colors";
+
+.banner {
+  background-color: $blue-color;
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  img {
+    z-index: 1;
+  }
+
+  &__bb {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+  }
+
+  &__bl {
+    position: absolute;
+    bottom: 0px;
+    left: -5%;
+  }
+
+  &__br {
+    position: absolute;
+    bottom: 0px;
+    right: -3%;
+  }
+
+  &__text-content {
+    z-index: 2;
+  }
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 10%;
+  }
+
+  &__desc {
+    color: #fff;
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  &__button {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin: 2rem 1rem;
+    cursor: pointer;
+
+    &.white {
+      color: #000;
+      background-color: white;
+
+      &:hover {
+        color: $blue-color-light;
+      }
+    }
+
+    &.black {
+      color: #fff;
+      background-color: #000;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.75);
+      }
+    }
+  }
+}
