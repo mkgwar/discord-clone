@@ -2,28 +2,24 @@
   "sec1": {
     "title": "Create an invite-only place where you belong",
     "desc": "Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.",
-    "url": "https://discord.com/assets/46b2132c01604c9493d558de444929f4.svg",
     "bg": "white",
-    "jc": "row"
+    "jc": "row-reverse"
   },
   "sec2": {
     "title": "Where hanging out is easy",
     "desc": "Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.",
-    "url": "https://discord.com/assets/575a0322f3b36ca2fecb23ad2c6dd5ad.svg",
     "bg": "grey",
-    "jc": "row-reverse"
+    "jc": "row"
   },
   "sec3": {
     "title": "From few to a fandom",
     "desc": "Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.",
-    "url": "https://discord.com/assets/921b1ae33edca174b6ebe787bb8b6c3b.svg",
     "bg": "white",
-    "jc": "row"
+    "jc": "row-reverse"
   },
   "sec4": {
     "title": "Reliable tech for staying close",
     "desc": "Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.",
-    "url": "https://discord.com/assets/98ea5b9e92e304c7d352ac462996adc5.svg",
     "bg": "grey",
     "jc": "column"
   }
