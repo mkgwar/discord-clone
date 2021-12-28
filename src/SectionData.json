@@ -21,6 +21,6 @@
     "title": "Reliable tech for staying close",
     "desc": "Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.",
     "bg": "grey",
-    "jc": "column"
+    "jc": "row"
   }
 }

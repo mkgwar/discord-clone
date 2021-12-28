@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   gap: 6rem;
-  padding: 10rem 0;
+  padding: 7rem 0;
 
   &__text-content {
     width: 30%;
@@ -34,9 +34,5 @@
 
   &.row-reverse {
     flex-direction: row-reverse;
-  }
-
-  &.column {
-    flex-direction: column;
   }
 }

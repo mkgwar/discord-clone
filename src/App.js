@@ -4,6 +4,8 @@ import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import Data from "./SectionData";
 import { img1, img2, img3, img4 } from "./ImageImports";
+import Ready from "./Components/Ready";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -38,6 +40,8 @@ function App() {
         bg={Data["sec4"].bg}
         src={img4}
       />
+      <Ready />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,14 @@
+{
+  "Product": ["Download", "Download", "Download"],
+  "Company": ["About", "About", "About", "About"],
+  "Resources": [
+    "College",
+    "College",
+    "College",
+    "College",
+    "College",
+    "College",
+    "College"
+  ],
+  "Policies": ["Terms", "Terms", "Terms", "Terms", "Terms", "Terms", "Terms"]
+}
